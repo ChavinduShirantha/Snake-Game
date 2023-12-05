@@ -16,8 +16,8 @@ body {
 }
 
 .wrapper {
-    width: 40vw;
-    height: 70vh;
+    width: 75vmin;
+    height: 80vmin;
     display: flex;
     overflow: hidden;
     flex-direction: column;
@@ -42,4 +42,13 @@ body {
     display: grid;
     background: #596fb7;
     grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+}
+
+.play-board .food {
+    background: #FF003D;
+    border-radius: 100%;
+}
+
+.play-board .head {
+    background: #001c26;
 }
