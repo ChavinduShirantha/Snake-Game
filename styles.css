@@ -46,9 +46,11 @@ body {
 
 .play-board .food {
     background: #FF003D;
-    border-radius: 100%;
+    border-radius: 50%;
+
 }
 
 .play-board .head {
-    background: #001c26;
+    background: #2626a4;
 }
+
